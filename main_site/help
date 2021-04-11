@@ -1,0 +1,14 @@
+
+ //Добавление спецификаций и тегов к ним
+    print(User.objects.filter(username='adminq').get())
+    tom = specifications.objects.create(name_specification='SMTP', author=User.objects.filter(username='bigl').get()
+                                        , date='2021-04-03', version=1.3, description = 'tttt',
+                                        text_specification='qwertj dctghjlkjh fyugbjnl')
+    print(tom)
+    tag = tags_list.objects.filter(name='Android').get()
+    tag2 = tags_list.objects.filter(name='Python').get()
+
+    tag.specifications_set.add(tom)
+    tag2.specifications_set.add(tom)
+
+

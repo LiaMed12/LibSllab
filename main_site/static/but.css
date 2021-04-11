@@ -1,0 +1,9 @@
+.icon_acc {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    fill: white;
+}
+
+.icon_acc:hover {
+    fill: #4CAF50;
+}

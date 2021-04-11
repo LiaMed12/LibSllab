@@ -1,0 +1,7 @@
+.specification_link{
+    color: black;
+}
+.specification_link:hover{
+    color: brown;
+}
+
